@@ -1,0 +1,59 @@
+.header {
+}
+
+.header-img-main {
+  height: 50rem;
+  clip-path: url(#testClip);
+}
+
+.image-container {
+  align-content: flex-end;
+  margin-right: 5%;
+  margin-left: auto;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  padding: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.nav-left-cont {
+  width: 75%;
+}
+
+.nav-right-cont {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.nav-header-left {
+  font-family: "Kalam";
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.header-cont-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.header-text-cont {
+  align-content: flex-start;
+  align-self: center;
+  margin-right: auto;
+  margin-left: 10%;
+}
+
+.header-text {
+      width: 65%;
+      font-family: "Lato";
+      font-weight: 400;
+      font-size: 2.5rem;
+}

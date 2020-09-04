@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+a {
+  color: black; }
+
+a:hover {
+  background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.title {
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: "Lato"; }
+
+.text {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: "Gelasio"; }
+
+.header-img-main {
+  height: 50rem;
+  clip-path: url(#testClip); }
+
+.image-container {
+  align-content: flex-end;
+  margin-right: 5%;
+  margin-left: auto; }
+
+.navigation {
+  display: flex;
+  align-items: center;
+  padding: 2.5rem;
+  margin-bottom: 4rem; }
+
+.nav-left-cont {
+  width: 75%; }
+
+.nav-right-cont {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  padding: 0 5%; }
+
+.nav-header-left {
+  font-family: "Kalam";
+  font-size: 2.5rem; }
+
+.nav-link {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 2rem;
+  text-decoration: underline; }
+
+.header-cont-wrapper {
+  display: flex;
+  justify-content: space-around; }
+
+.header-text-cont {
+  align-content: flex-start;
+  align-self: center;
+  margin-right: auto;
+  margin-left: 10%; }
+
+.header-text {
+  width: 65%;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 2.5rem; }
+
+.separator {
+  height: .25rem;
+  background-color: #838587; }
+
+.body-container {
+  padding: 5% 10%; }
+
+.main-title {
+  margin-bottom: 5rem; }
+
+.main-text {
+  margin-right: 20%;
+  margin-bottom: 4rem; }
+
+.main-link {
+  font-size: 3rem;
+  font-family: "Gelasio";
+  font-weight: "400";
+  font-style: italic; }
